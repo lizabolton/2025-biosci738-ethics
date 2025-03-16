@@ -103,7 +103,7 @@ Scientific innovations and techniques like the statistical and computational mod
 
 # Some questions for ethical decision-making
 
-The following are adapted from the Waipapa Taumata Rau Science Course WTR100 (Science
+The following are adapted from the Waipapa Taumata Rau Science Course WTRSCI100
 
 1. “Does this action reflect the character traits that I strive to embody?” (virtue ethics)
 
@@ -138,8 +138,79 @@ Similarly
 
 # Exploring a few 'big ideas' for ethical data practices
 
-# Group discussion 2 — see the runsheet
+## Reproducibility, transperancy, open data
+
+- Making data and code available (freely online, or 'upon application to the author')
+  - Tools like GitHub or platforms like the [Open Science Framework (OSF)](https://www.cos.io/products/osf) are popular
+- Approaching you code writing in reproducible ways
+- Making it possible for others to replicate your methods and analyses
+
+## Indigenous data sovereignty
+
+- [Module 1 in your coursebook](https://biosci738.github.io/BIOSCI738/respectful-handling-of-data.html#respectful-handling-of-data) includes notes about data sovereignty, especially principles around Indigenous Data Sovereignty.
+- Some advice and concepts that are commonly promoted in open data and transparency movements are directly counter to sovereignty over data. 
+  - You must consider what the relevance and appropriate balance of these principles is for the given research situation.
+ 
+
+## Optional video: Data Democratisation Panel from the Science Communicators Association of New Zealand
+
+::: {.centre}
+<iframe width="1120" height="630" src="https://www.youtube.com/embed/8cBOIyoISbY?si=Jxudp8MRIy60ObBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+:::
+
+[Link](https://www.youtube.com/embed/8cBOIyoISbY?si=Jxudp8MRIy60ObBZ)
+
+## The dead fish that can read human emotions
+
+<br>
+<br>
+
+*Story time* [Poster link](http://prefrontal.org/files/posters/Bennett-Salmon-2009.pdf)
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+📚 Read more in this [Scientific American article about the IgNobel prize](https://www.scientificamerican.com/blog/scicurious-brain/ignobel-prize-in-neuroscience-the-dead-salmon-study/) this study won.
+
+## Researcher degrees of freedom
+
+- Your decisions matter! 
+- You may be familiar with 'degrees of freedom' from your previous statistics courses. This value tells us something about how many independent pieces of information go into our estimation of the parameter we're interested in. 
+- Researcher degrees of freedom are a way of discussing the flexibility and range of ways we might approach collecting and measuring data.
+
+<br>
+<br>
+
+📚 Recommended reading: Wicherts JM, Veldkamp CL, Augusteijn HE, Bakker M, van Aert RC, van Assen MA. [Degrees of Freedom in Planning, Running, Analyzing, and Reporting Psychological Studies: A Checklist to Avoid p-Hacking.](https://pmc.ncbi.nlm.nih.gov/articles/PMC5122713/) Front Psychol. 2016 Nov 25;7:1832. doi: 10.3389/fpsyg.2016.01832. PMID: 27933012; PMCID: PMC5122713.
 
 
+## Communication
 
+Doing the work is not enough — you need to make sure that communication to stakeholders about your work and results is done accurately and honestly.
 
+- Appropriate data visualisations
+- Use clear and plain language descriptions when appropriate
+- Don't leave things out
+- Be honest about limitations of your work
+- Reference appropriately
+
+## What you might have to do sometimes (the not fun stuff)
+
+- 📣'Blow the whistle'
+  - Well run organisations will have ways to 'whistle blow' and make complaints, as will some professional societies. In some (rare) cases, going to law enforcement or the media may be needed.
+- 💸 Refuse funding from sources that could compromise your integrity.
+- ✊🏽 Stand up to people in authority, who you might respect or have looked up to.
+
+# Group discussion 2: case studies — see the runsheet
+
+# Wrap-up
+
+# Thanks for having me! 
+
+📧 liza.bolton@auckland.ac.nz
