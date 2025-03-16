@@ -14,7 +14,7 @@ toc-depth: 2
 
 # Notes
 
-All BIOSCI 738 lectures require your **active involvement**! See the [course policies](https://biosci738.github.io/BIOSCI738/key-information.html#course-policies) for further infomation.
+All BIOSCI 738 lectures require your **active involvement**! See the [course policies](https://biosci738.github.io/BIOSCI738/key-information.html#course-policies) for further information.
 
 Throughout this runsheet you'll find a number of different callout boxes:
 
@@ -30,13 +30,7 @@ Throughout this runsheet you'll find a number of different callout boxes:
 ## <i class="fa fa-question-circle" aria-hidden="true"></i> <i class="fa fa-users" aria-hidden="true"></i> <i class="fa fa-pencil-square" aria-hidden="true"></i> this box will ask you discuss/write/sketch an answer within your randomly allocated group
 :::
 
-### First things first...
-
-Note the **randomly allocated group** mentioned above. Each lecture I'll have run the following `R` function that randomly allocates you into groups. **It's your responsibility to get into them, just look for the cows!**
-
-<center> [<img src="https://raw.githubusercontent.com/BIOSCI738/cowstats/main/img/coxhex.png" alt="BIOSCI738 hex" width="200" height="200">](https://biosci738.github.io/cowstats/)</center>
-
-```{r}
+```{r, echo=F}
 group_allocation <- function(names, seed, groups = 9 ){
   set.seed(seed)
   tmp <- sample(names, replace = FALSE)
@@ -44,10 +38,9 @@ group_allocation <- function(names, seed, groups = 9 ){
 }
 ```
 
-
 ::: {.callout-note}
 ## Accessing activities
-Scan the QR code below, I have provided links to both this runsheet and the slides.
+Scan the QR code below, I have provided links to this runsheet, the slides and your collaborative Google Doc.
 
 <center><p><a href="link.lizabolton.com" target="_blank">link.lizabolton.com</a></p>
 <img src="img/slide-qr.png" alt="qr code"></center>
@@ -58,14 +51,14 @@ Scan the QR code below, I have provided links to both this runsheet and the slid
 
 ::: {.callout-tip}
 ## By the end of today's seminar, you will be able to:
-- Recognise that while individuals (and societies) may have different opinions and approaches to ethics, but we can use codes of conduct to support our professional ethical decision making.
+- Recognise that while individuals (and societies) may have different opinions and approaches to ethics, we can use codes of conduct to support our professional ethical decision making.
 - Describe some of the values, principles, responsibilities, and standards from the Royal Society Te Apārangi Code of Professional Standards and Ethics in Science, Technology, and the Humanities.
 - Describe how ethical decisions can appear throughout different stages of study and research in biology.
-- Identify issues and provide advice for ethical decision making in biology contexts.
+- Identify issues and provide advice for ethical decision-making in biology contexts.
 :::
 
 ## Slides
-```{r}
+```{r, echo=F}
 xaringanExtra::embed_xaringan(
   "https://lizabolton.github.io/2025-biosci738-ethics/#/title-slide",
   ratio = "16:9",
@@ -95,7 +88,7 @@ xaringanExtra::embed_xaringan(
 **It's your responsibility to get into these, just look for the cows!**
 
 ```{r, echo = 2}
-names <- c("Emma Akeroyd", "Jianing Chen", "Sunny Chen", "Anqi Cheng", "Barnaby Clegg-Shaw", "Shoule Du", "Yi Han", "Shuxiang He", "Alex Johnson", "Karie Labidon", "He Li", "Zichang Li", "Happy Liang", "Jiaxin Liu", "Leyang Liu", "Angel Loh", "Yue Ma", "Congkai Meng", "Robert Mihok", "Laura Munck", "Lana Najar", "Bayu Pitandoyo", "Pikitangarangi Ratapu", "YOGAPRIYA S", "Antonia Schebek-Fuerstenberg", "Keyi Sun", "Charlotte Sutton", "Julia Thain", "Yingyi Wang", "Yutong Wang", "Ziyi Wang", "Yutao Yang", "Tongzheng Yao", "Xinyue Zhang", "Zhixiao Zhang")
+names <- c("Emma Akeroyd", "Jianing Chen", "Sunny Chen", "Anqi Cheng", "Barnaby Clegg-Shaw", "Francesca Domanska", "Shoule Du", "Yi Han", "Shuxiang He", "Daneshajeya Jeyavalan", "Alex Johnson", "Karie Labidon", "He Li", "Zichang Li", "Happy Liang", "Jiaxin Liu", "Leyang Liu", "Angel Loh", "Hnin Lwin", "Yue Ma", "Congkai Meng", "Robert Mihok", "Laura Munck", "Lana Najar", "Bayu Pitandoyo", "Vivian Qian", "Pikitangarangi Ratapu", "YOGAPRIYA S", "Antonia Schebek-Fuerstenberg", "Keyi Sun", "Charlotte Sutton", "Julia Thain", "Yingyi Wang", "Yutong Wang", "Ziyi Wang", "Yutao Yang", "Tongzheng Yao", "Xinyue Zhang", "Zhixiao Zhang")
 group_allocation(names, seed = 1992)
 ```
 
@@ -115,8 +108,8 @@ If you have time (now or in the second half), do one of the following:
 
 OR 
 
-- Make a cheesy motivational poster / 'hopecore' edit for one of the principles from the  [Royal Society Te Apārangi Code](https://www.royalsociety.org.nz/assets/Uploads/Code-Overview-A3-web.pdf)
-  - There is a generator you can use [here](https://bighugelabs.com/motivator.php) (and you can get free photos from [Unsplash](https://unsplash.com/))
+- Make a cheesy motivational poster / 'hopecore' edit for one of the principles from the  [Royal Society Te Apārangi Code](https://www.royalsociety.org.nz/assets/Uploads/Code-Overview-A3-web.pdf).
+  - There is a generator you can use [here](https://bighugelabs.com/motivator.php) (and you can get free photos from [Unsplash](https://unsplash.com/)).
 
 ![](img/nonmaleficence.jpg)
 
@@ -126,13 +119,16 @@ For each of the following case studies, discuss the situation and identify poten
 
 ## Case 1
 
-A mine has been accused of managing their tailings poorly, causing dangerous chemicals to enter the nearby swamp. Local councillors, S. Hrek and D. Onkey, have complained that it is bad for the Hochstetter's frog | Pangokereia living there and you have been hired by the mine to help them combat these allegations.
+![](img/frog.jpg)
+Image attribution: Hochstetter's frog (Waitakere Ranges, Auckland). © Nick Harker (via https://www.reptiles.org.nz/)
 
-You are contracted to measuring the weight of the frogs in the area, with the idea that if the frogs are unhealthy, their weight will be lower than was found in a previous survey of the area. That previous study found that the average weight of the Hochstetter's frogs in this location is 6.5 grams.
+A mine has been accused of managing their tailings poorly, causing dangerous chemicals to enter the nearby swamp. Local councillors, S. Hrek and D. Onkey, have complained that it is bad for the Hochstetter's frog | Pangokereia living there. You have been hired by the mine to help them push back on these allegations.
+
+You are contracted to measure the weight of the frogs in the area, with the idea that if the frogs are unhealthy, their weight will be lower than was found in a previous survey of the area. That previous study found that the average weight of the Hochstetter's frogs in this location is 6.2 grams.
 
 While you are catching and measuring the live frogs, you notice that there are not many juvenile frogs ('froglets') despite it being the season when many should be maturing from tadpoles into adult frogs. As Hochstetter's frogs mature their colouring darkens and you notice that most of the frogs have quite dark colouring.
 
-You can run the below code to find the mean weight of the frogs you studied and perform a t-test.
+You can run the code below to find the mean weight of the frogs you studied and perform a t-test.
 
 ```{r, eval = F}
 # The weights of 30 frogs
@@ -141,8 +137,8 @@ frog_weights <- c(5.6, 8.7, 6.1, 6.2, 5.1, 6.8, 6.8, 6.5, 7.0, 7.5, 6.3, 5.8, 6.
 # Calculate the average weight in this sample
 mean(frog_weights)
 
-# One sample t-test, one sided
-t.test(frog_weights, mu = 6.5, alternative = "less")
+# One sample t-test
+t.test(frog_weights, mu = 6.5)
 ```
 
 ::: {.callout-note}
@@ -155,7 +151,6 @@ You can run `?t.test` in your R console to see the documentation for the basic t
 Write the null and alternative hypothesis for this test in context.
 :::
 
-
 A mine executive is very relieved by your results and interprets them as indicating that the frogs are doing very well as they are even larger and healthier than they were before.
 
 :::{.callout-warning icon=false}
@@ -165,13 +160,16 @@ As a group, identify some possible issues with this interpretation based on limi
 
 ## Case 2
 
-You have been hired to work with a local iwi to collect data on the locations and habits of a rare albino kiwi bird with a distincitve call. Data is collected across an array of microphones and is used to create a location heat map for where the kiwi spends time. 
+![](img/white-kiwi.png)
+Image attribution: Getty images via https://www.theguardian.com/world/2020/dec/28/mankura-the-rare-white-kiwi-dies-after-surgery-in-new-zealand
 
-The iwi are kaitiaki (caretakers) of the area where this kiwi lives. They are also worried about increasing attempts from tourists and others to get pictures of this rare bird and how this risks disturbing and destressing the animal, risking its health and that of other kiwi in the area.
+You have been hired to work with a local iwi to collect data on the locations and habits of a rare white kiwi bird with a distinctive call. Data is collected across an array of microphones and is used to create a location heat map for where this kiwi spends time. 
+
+The iwi are kaitiaki (caretakers) of the area where this kiwi lives. In addition to wanting to learn more about the kiwi, they are worried about increasing attempts from tourists and others to get pictures of this rare bird when people post on social media about locations it has been seen. Lots of people looking for the kiwi and trying to touch it or take photos risks disturbing and distressing the animal, which could severely hurt its health and that of other kiwi in the area.
 
 You finish up the work and your clients are very happy with it, especially complimentary about the data visualisation showing the common locations the kiwi visits by longitude and latitude. 
 
-You are preparing an update to your CV to apply for a job, and you notice that transperancy and open data practices are key values of the research institute you are applying to. You write a blog post for your website outlining your findings from the kiwi research, clearly outline the data collection processes, analytical choices, and limitations. You create a public GitHub repository that provides all the code and data to create the location heat maps.
+You are preparing an update to your CV to apply for a job, and you notice that transperancy and open data practices are key values of the research institute you are applying to. You write a blog post for your website outlining your findings from the kiwi research, clearly explaining the data collection processes, analytical choices, and limitations. You create a public GitHub repository that provides all the code and data to create the location heat maps.
 
 You're about to press publish so you can link to it in your application, but a little voice in your head stops you...
 
@@ -182,7 +180,10 @@ Be the little voice in your head. Is it right to publish this? Make some argumen
 
 ## Case 3
 
-Concerns have been raised that a off-roading adventure course has caused vegetation loss and increased the risk of wind erosion due to exposed soil. The area where the course has been developed is a large, flat tussock grassland in the South Island. The grassland is fairly similar throughout, and has not been disturbed other than the dirt track for the off-road vehicles to travel on — this area is not included in the coverage measures.
+![](img/tussock.jpg)
+Image attribution: Te Ara https://teara.govt.nz/en/grasslands
+
+Concerns have been raised that an off-roading adventure course has caused vegetation loss and increased the risk of wind erosion due to exposed soil. The area where the course has been developed is a large, flat tussock grassland in the South Island. The grassland is fairly similar throughout, and has not been disturbed other than the dirt track for the off-road vehicles to travel on — this track area is not included in the coverage measures, but estimates are taken next to it.
 
 High resolution drone photography of the area has been used to estimate vegetation coverage both close to the course and further away in the undisturbed grassland. To gather the data, 100 meter lines parallel to the course, spaced every 5 meters, are drawn on the aerial imagery. Five one meter square areas are randomly chosen along each line and the vegetation coverage estimated using an appropriate machine learning tool.
 
@@ -193,7 +194,7 @@ High resolution drone photography of the area has been used to estimate vegetati
 
 2. Write down (bullet points are fine) about some of the specific choices made when presenting this data.
 
-3. Create your own version of this visualisation, seeking to answer the question about whether the adventure course appears to have had an impact on the vegetation coverage.
+3. Create your own version of this visualisation. Aim to answer the question about whether the adventure course appears to have had an impact on the vegetation coverage in this grassland area.
 :::
 
 
@@ -203,7 +204,7 @@ High resolution drone photography of the area has been used to estimate vegetati
 library(tidyverse)
 
 veg_cov <- tibble(
-  dist_from_road = c(
+  dist_from_track = c(
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
     10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
     20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25,
@@ -228,13 +229,13 @@ veg_cov <- tibble(
     76, 60.6, 69.2, 75.8, 61.8, 60.8, 62.7, 66, 65.8, 60.1, 55.8, 74.1, 60.8, 79, 53.8, 73.7, 56.2, 57.3, 77.1, 53.6,
     61.9, 71.9, 71.8, 51.8, 68.7, 66.4, 65.6, 77.5, 76.1, 66.4, 58.7, 71.2, 78.1, 51.1, 64.3, 51.4, 65.3, 50.5, 50.5, 61.8, 56.3, 64.9, 50, 61.3, 64.8, 57.7, 60.8, 62.6,65.4,69))
 
-plot <- ggplot(veg_cov, aes(x = dist_from_road, y = coverage)) +
+plot <- ggplot(veg_cov, aes(x = dist_from_track, y = coverage)) +
   geom_point() +
   xlim(0, 25) +
   ylim(0, 30) +
   geom_smooth(method = "lm", formula = 'y ~ x', col="darkgreen") +
   labs(x = "Distance from road (m)", y = "Coverage (%)",
-       title = "Vegetation coverage near to roading project similar to surrounding area") +
+       title = "Vegetation coverage near to adventure course similar to surrounding area") +
   theme_minimal()
 
 suppressWarnings(print(plot))

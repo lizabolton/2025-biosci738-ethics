@@ -54,9 +54,24 @@ or go to [link.lizabolton.com](link.lizabolton.com)
 # Kia ora koutou 欢迎大家
 
 ::: notes
-Kia ora koutou ko Liza taku ingoa, Huānyíng dàjiā, wǒ de míngzì shì Liza
+Kia ora koutou ko Liza taku ingoa, Huānyíng dàjiā, wǒ de míngzì shì Liza.
+
+It was such a delight to look at Charlotte's class list and see names I recognised from Stats 330. Hope you're not too horrified to see me in your classroom again. 
 :::
 
+# Scan for slides & runsheet
+
+```{r, eval = F, echo=F}
+# Need to rerun if change URL
+code <- qrcode::qr_code("https://link.lizabolton.com/")
+png("img/slide-qr.png")
+plot(code)
+dev.off()
+```
+
+![](img/slide-qr.png){fig-align="center" width="600"}
+
+or go to [link.lizabolton.com](link.lizabolton.com)
 
 ## You hate your friend's new haircut
 
@@ -150,9 +165,12 @@ Similarly
 - [Module 1 in your coursebook](https://biosci738.github.io/BIOSCI738/respectful-handling-of-data.html#respectful-handling-of-data) includes notes about data sovereignty, especially principles around Indigenous Data Sovereignty.
 - Some advice and concepts that are commonly promoted in open data and transparency movements are directly counter to sovereignty over data. 
   - You must consider what the relevance and appropriate balance of these principles is for the given research situation.
- 
 
-## Optional video: Data Democratisation Panel from the Science Communicators Association of New Zealand
+ 
+### Optional short article: 
+RNZ. (2024). *Māori AI expert Dr Karaitiana Taiuru shares his favourite whakataukī*. https://www.rnz.co.nz/news/national/512062/maori-ai-expert-dr-karaitiana-taiuru-shares-his-favourite-whakatauki
+
+## Optional video: Data Democratisation Panel from the Science Communicators Association of New Zealand (2023)
 
 ::: {.centre}
 <iframe width="1120" height="630" src="https://www.youtube.com/embed/8cBOIyoISbY?si=Jxudp8MRIy60ObBZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
