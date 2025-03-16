@@ -89,7 +89,7 @@ xaringanExtra::embed_xaringan(
 
 ```{r, echo = 2}
 names <- c("Emma Akeroyd", "Jianing Chen", "Sunny Chen", "Anqi Cheng", "Barnaby Clegg-Shaw", "Francesca Domanska", "Shoule Du", "Yi Han", "Shuxiang He", "Daneshajeya Jeyavalan", "Alex Johnson", "Karie Labidon", "He Li", "Zichang Li", "Happy Liang", "Jiaxin Liu", "Leyang Liu", "Angel Loh", "Hnin Lwin", "Yue Ma", "Congkai Meng", "Robert Mihok", "Laura Munck", "Lana Najar", "Bayu Pitandoyo", "Vivian Qian", "Pikitangarangi Ratapu", "YOGAPRIYA S", "Antonia Schebek-Fuerstenberg", "Keyi Sun", "Charlotte Sutton", "Julia Thain", "Yingyi Wang", "Yutong Wang", "Ziyi Wang", "Yutao Yang", "Tongzheng Yao", "Xinyue Zhang", "Zhixiao Zhang")
-group_allocation(names, seed = 1992)
+group_allocation(names, seed = 1992, groups = 10)
 ```
 
 # Group discussion: Codes of conduct {#sec-coc2}
@@ -120,6 +120,7 @@ For each of the following case studies, discuss the situation and identify poten
 ## Case 1
 
 ![](img/frog.jpg)
+
 Image attribution: Hochstetter's frog (Waitakere Ranges, Auckland). © Nick Harker (via https://www.reptiles.org.nz/)
 
 A mine has been accused of managing their tailings poorly, causing dangerous chemicals to enter the nearby swamp. Local councillors, S. Hrek and D. Onkey, have complained that it is bad for the Hochstetter's frog | Pangokereia living there. You have been hired by the mine to help them push back on these allegations.
@@ -161,6 +162,7 @@ As a group, identify some possible issues with this interpretation based on limi
 ## Case 2
 
 ![](img/white-kiwi.png)
+
 Image attribution: Getty images via https://www.theguardian.com/world/2020/dec/28/mankura-the-rare-white-kiwi-dies-after-surgery-in-new-zealand
 
 You have been hired to work with a local iwi to collect data on the locations and habits of a rare white kiwi bird with a distinctive call. Data is collected across an array of microphones and is used to create a location heat map for where this kiwi spends time. 
@@ -181,6 +183,7 @@ Be the little voice in your head. Is it right to publish this? Make some argumen
 ## Case 3
 
 ![](img/tussock.jpg)
+
 Image attribution: Te Ara https://teara.govt.nz/en/grasslands
 
 Concerns have been raised that an off-roading adventure course has caused vegetation loss and increased the risk of wind erosion due to exposed soil. The area where the course has been developed is a large, flat tussock grassland in the South Island. The grassland is fairly similar throughout, and has not been disturbed other than the dirt track for the off-road vehicles to travel on — this track area is not included in the coverage measures, but estimates are taken next to it.

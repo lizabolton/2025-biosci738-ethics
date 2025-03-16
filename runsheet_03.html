@@ -265,39 +265,41 @@ By the end of today’s seminar, you will be able to:
 <h3 class="anchored" data-anchor-id="randomly-allocated-groups">Randomly allocated groups</h3>
 <p><strong>It’s your responsibility to get into these, just look for the cows!</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">group_allocation</span>(names, <span class="at">seed =</span> <span class="dv">1992</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">group_allocation</span>(names, <span class="at">seed =</span> <span class="dv">1992</span>, <span class="at">groups =</span> <span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>$`Group 1`
 [1] "Alex Johnson"     "Charlotte Sutton" "Yi Han"           "Keyi Sun"        
-[5] "Yutao Yang"      
 
 $`Group 2`
-[1] "Tongzheng Yao"         "Daneshajeya Jeyavalan" "He Li"                
-[4] "Bayu Pitandoyo"       
+[1] "Yutao Yang"            "Tongzheng Yao"         "Daneshajeya Jeyavalan"
+[4] "He Li"                
 
 $`Group 3`
-[1] "Angel Loh"  "Lana Najar" "Zichang Li" "Sunny Chen"
+[1] "Bayu Pitandoyo" "Angel Loh"      "Lana Najar"     "Zichang Li"    
 
 $`Group 4`
-[1] "Anqi Cheng"                   "Happy Liang"                 
-[3] "Karie Labidon"                "Antonia Schebek-Fuerstenberg"
+[1] "Sunny Chen"    "Anqi Cheng"    "Happy Liang"   "Karie Labidon"
 
 $`Group 5`
-[1] "YOGAPRIYA S"  "Hnin Lwin"    "Leyang Liu"   "Julia Thain"  "Emma Akeroyd"
+[1] "Antonia Schebek-Fuerstenberg" "YOGAPRIYA S"                 
+[3] "Hnin Lwin"                    "Leyang Liu"                  
 
 $`Group 6`
-[1] "Yingyi Wang"  "Jianing Chen" "Yue Ma"       "Yutong Wang" 
+[1] "Julia Thain"  "Emma Akeroyd" "Yingyi Wang" 
 
 $`Group 7`
-[1] "Laura Munck"   "Vivian Qian"   "Zhixiao Zhang" "Jiaxin Liu"   
+[1] "Jianing Chen" "Yue Ma"       "Yutong Wang"  "Laura Munck" 
 
 $`Group 8`
-[1] "Shoule Du"             "Shuxiang He"           "Xinyue Zhang"         
-[4] "Pikitangarangi Ratapu"
+[1] "Vivian Qian"   "Zhixiao Zhang" "Jiaxin Liu"    "Shoule Du"    
 
 $`Group 9`
-[1] "Congkai Meng"       "Francesca Domanska" "Robert Mihok"      
-[4] "Barnaby Clegg-Shaw" "Ziyi Wang"         </code></pre>
+[1] "Shuxiang He"           "Xinyue Zhang"          "Pikitangarangi Ratapu"
+[4] "Congkai Meng"         
+
+$`Group 10`
+[1] "Francesca Domanska" "Robert Mihok"       "Barnaby Clegg-Shaw"
+[4] "Ziyi Wang"         </code></pre>
 </div>
 </div>
 </section>
@@ -331,7 +333,8 @@ $`Group 9`
 <p>For each of the following case studies, discuss the situation and identify potential ethical issues. For some, you may need to run the associated code in R.</p>
 <section id="case-1" class="level2">
 <h2 class="anchored" data-anchor-id="case-1">Case 1</h2>
-<p><img src="img/frog.jpg" class="img-fluid"> Image attribution: Hochstetter’s frog (Waitakere Ranges, Auckland). © Nick Harker (via https://www.reptiles.org.nz/)</p>
+<p><img src="img/frog.jpg" class="img-fluid"></p>
+<p>Image attribution: Hochstetter’s frog (Waitakere Ranges, Auckland). © Nick Harker (via https://www.reptiles.org.nz/)</p>
 <p>A mine has been accused of managing their tailings poorly, causing dangerous chemicals to enter the nearby swamp. Local councillors, S. Hrek and D. Onkey, have complained that it is bad for the Hochstetter’s frog | Pangokereia living there. You have been hired by the mine to help them push back on these allegations.</p>
 <p>You are contracted to measure the weight of the frogs in the area, with the idea that if the frogs are unhealthy, their weight will be lower than was found in a previous survey of the area. That previous study found that the average weight of the Hochstetter’s frogs in this location is 6.2 grams.</p>
 <p>While you are catching and measuring the live frogs, you notice that there are not many juvenile frogs (‘froglets’) despite it being the season when many should be maturing from tadpoles into adult frogs. As Hochstetter’s frogs mature their colouring darkens and you notice that most of the frogs have quite dark colouring.</p>
@@ -389,7 +392,8 @@ Look up R documentation
 </section>
 <section id="case-2" class="level2">
 <h2 class="anchored" data-anchor-id="case-2">Case 2</h2>
-<p><img src="img/white-kiwi.png" class="img-fluid"> Image attribution: Getty images via https://www.theguardian.com/world/2020/dec/28/mankura-the-rare-white-kiwi-dies-after-surgery-in-new-zealand</p>
+<p><img src="img/white-kiwi.png" class="img-fluid"></p>
+<p>Image attribution: Getty images via https://www.theguardian.com/world/2020/dec/28/mankura-the-rare-white-kiwi-dies-after-surgery-in-new-zealand</p>
 <p>You have been hired to work with a local iwi to collect data on the locations and habits of a rare white kiwi bird with a distinctive call. Data is collected across an array of microphones and is used to create a location heat map for where this kiwi spends time.</p>
 <p>The iwi are kaitiaki (caretakers) of the area where this kiwi lives. In addition to wanting to learn more about the kiwi, they are worried about increasing attempts from tourists and others to get pictures of this rare bird when people post on social media about locations it has been seen. Lots of people looking for the kiwi and trying to touch it or take photos risks disturbing and distressing the animal, which could severely hurt its health and that of other kiwi in the area.</p>
 <p>You finish up the work and your clients are very happy with it, especially complimentary about the data visualisation showing the common locations the kiwi visits by longitude and latitude.</p>
@@ -411,7 +415,8 @@ Look up R documentation
 </section>
 <section id="case-3" class="level2">
 <h2 class="anchored" data-anchor-id="case-3">Case 3</h2>
-<p><img src="img/tussock.jpg" class="img-fluid"> Image attribution: Te Ara https://teara.govt.nz/en/grasslands</p>
+<p><img src="img/tussock.jpg" class="img-fluid"></p>
+<p>Image attribution: Te Ara https://teara.govt.nz/en/grasslands</p>
 <p>Concerns have been raised that an off-roading adventure course has caused vegetation loss and increased the risk of wind erosion due to exposed soil. The area where the course has been developed is a large, flat tussock grassland in the South Island. The grassland is fairly similar throughout, and has not been disturbed other than the dirt track for the off-road vehicles to travel on — this track area is not included in the coverage measures, but estimates are taken next to it.</p>
 <p>High resolution drone photography of the area has been used to estimate vegetation coverage both close to the course and further away in the undisturbed grassland. To gather the data, 100 meter lines parallel to the course, spaced every 5 meters, are drawn on the aerial imagery. Five one meter square areas are randomly chosen along each line and the vegetation coverage estimated using an appropriate machine learning tool.</p>
 <div class="callout callout-style-default callout-warning no-icon callout-titled">
