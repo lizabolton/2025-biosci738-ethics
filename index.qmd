@@ -1,0 +1,85 @@
+---
+title: "Honest figures: Ethical data professionals in biology"
+subtitle: "BIOSCI 738 @ Waipapa Taumata Rau"
+author: "Liza Bolton (guest lecture)"
+date: 2025-03-17
+title-slide-attributes:
+  data-background-image: ""
+  data-background-opacity: "0.4"
+format:
+  revealjs:
+    theme: theme.scss
+    transition: fade
+    width: 1600
+    height: 900
+    background-transition: fade
+    highlight-style: ayu-mirage
+    slide-number: c/t
+    auto-stretch: false
+    code-fold: true
+    code-summary: "Show the code"
+    embed-resources: true
+    header: "Slides: link.lizabolton.com"
+    header-logo: img/S DS HRC RGB.png
+#quarto add shafayetShafee/reveal-header
+filters:
+  - reveal-header
+code-link: true
+execute:
+  echo: true
+  freeze: auto
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r, echo=F, message=F, warning=F}
+library(tidyverse)
+```
+
+# Scan for slides & runsheet
+
+```{r, eval = F, echo=F}
+# Need to rerun if change URL
+code <- qrcode::qr_code("")
+png("img/slide-qr.png")
+plot(code)
+dev.off()
+```
+
+
+
+or go to [link.lizabolton.com](link.lizabolton.com)
+
+# Kia ora koutou 欢迎大家
+
+::: notes
+Kia ora koutou ko Liza taku ingoa, Huānyíng dàjiā, wǒ de míngzì shì Liza
+:::
+
+# Group discussion 1
+
+1. What experiences have you had with ethical decisions as a student and/or early career researcher? Try to give examples.
+
+2. Read over the [Royal Society Te Apārangi](https://www.royalsociety.org.nz/assets/Uploads/Code-Overview-A3-web.pdf) Code of Professional Standards and Ethics in Science, Technology, and the Humanities. 
+
+2. Describe a possible workflow for biological research. Come up with a possible ethical decision 
+
+Bonus activity
+
+If you have time, do one of the following:
+- Rewrite one of the values & principles of responsibility & standards using the most intense slang you can.
+
+OR 
+
+- Make a bad motivational poster for one of the principles from the  [Royal Society Te Apārangi Code](https://www.royalsociety.org.nz/assets/Uploads/Code-Overview-A3-web.pdf)
+  - There is a generator you can use [here](https://bighugelabs.com/motivator.php) (and you can get free photos from [Unsplash](https://unsplash.com/))
+
+![](img/nonmaleficence.jpg)
+
+
+# References
+
+
+
+

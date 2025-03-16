@@ -1,0 +1,68 @@
+---
+title: "Advanced Biological Data Analysis"
+title-block-banner: "#c7dbe2"
+subtitle: "BIOSCI 738"
+date: "2025"
+date-format: "YYYY"
+author: Liza Bolton (Guest Lecturer)
+institute: Waipapa Taumata Rau University of Auckland
+format: html
+toc: true
+toc-depth: 2
+---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+# Notes
+
+All BIOSCI 738 lectures require your **active involvement**! See the [course policies](https://biosci738.github.io/BIOSCI738/key-information.html#course-policies) for further infomation.
+
+Throughout this runsheet you'll find a number of different callout boxes:
+
+::: {.callout-tip}
+## this box will contain the expected learning objectives and/or outcomes for the material
+:::
+
+::: {.callout-note}
+## this box will contain some useful information
+:::
+
+:::{.callout-warning icon=false}
+## <i class="fa fa-question-circle" aria-hidden="true"></i> <i class="fa fa-users" aria-hidden="true"></i> <i class="fa fa-pencil-square" aria-hidden="true"></i> this box will ask you discuss/write/sketch an answer within your randomly allocated group
+:::
+
+### First things first...
+
+Note the **randomly allocated group** mentioned above. Each lecture I'll have run the following `R` function that randomly allocates you into groups. **It's your responsibility to get into them, just look for the cows!**
+
+<center> [<img src="https://raw.githubusercontent.com/BIOSCI738/cowstats/main/img/coxhex.png" alt="BIOSCI738 hex" width="200" height="200">](https://biosci738.github.io/cowstats/)</center>
+
+```{r}
+group_allocation <- function(names, seed, groups = 9 ){
+  set.seed(seed)
+  tmp <- sample(names, replace = FALSE)
+  split(tmp, cut(seq_along(tmp), groups, labels = paste("Group", 1:groups))) 
+}
+```
+
+
+::: {.callout-note}
+## Accessing activities
+Scan the QR code below, depending on the activity the site will update with what I want to share (e.g., this runsheet etc.)
+
+<center><p><a href="https://dub.sh/biosci738" target="_blank">dub.sh/biosci738</a></p>
+<img src="runsheets/img/qr_biosci738.svg" alt="dub.sh.biosci738"></center>
+:::
+
+
+# March 17th
+
+## Rough timeline
+
+### Randomly allocated groups
+
+**It's your responsibility to get into these, just look for the cows!**
+
+```{r, echo = 2}
+names <- c("Emma Akeroyd", "Jianing Chen", "Sunny Chen", "Anqi Cheng", "Barnaby Clegg-Shaw", "Shoule Du", "Yi Han", "Shuxiang He", "Alex Johnson", "Karie Labidon", "He Li", "Zichang Li", "Happy Liang", "Jiaxin Liu", "Leyang Liu", "Angel Loh", "Yue Ma", "Congkai Meng", "Robert Mihok", "Laura Munck", "Lana Najar", "Bayu Pitandoyo", "Pikitangarangi Ratapu", "YOGAPRIYA S", "Antonia Schebek-Fuerstenberg", "Keyi Sun", "Charlotte Sutton", "Julia Thain", "Yingyi Wang", "Yutong Wang", "Ziyi Wang", "Yutao Yang", "Tongzheng Yao", "Xinyue Zhang", "Zhixiao Zhang")
+group_allocation(names, seed = 1992)
+```
