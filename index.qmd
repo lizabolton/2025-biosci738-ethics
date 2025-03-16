@@ -41,13 +41,13 @@ library(tidyverse)
 
 ```{r, eval = F, echo=F}
 # Need to rerun if change URL
-code <- qrcode::qr_code("")
+code <- qrcode::qr_code("https://link.lizabolton.com/")
 png("img/slide-qr.png")
 plot(code)
 dev.off()
 ```
 
-
+![](img/slide-qr.png){fig-align="center" width="600"}
 
 or go to [link.lizabolton.com](link.lizabolton.com)
 
@@ -57,35 +57,88 @@ or go to [link.lizabolton.com](link.lizabolton.com)
 Kia ora koutou ko Liza taku ingoa, Huānyíng dàjiā, wǒ de míngzì shì Liza
 :::
 
-# Your friend has a terrible new haircut
+
+## You hate your friend's new haircut
+
+:::: {.columns}
+::: {.column width=50%}
+![](img/broc.jpeg)
+:::
+
+:::  {.column width=50%}
+
+:::{.callout-warning icon=false}
+## <i class="fa fa-question-circle" aria-hidden="true"></i> <i class="fa fa-users" aria-hidden="true"></i> If they ask you what you think, what do you say?
+:::
+
+<br>
+<br>
+<br>
+
+::: {.small}
+Google (2025) Gemini AI generated image from prompt: *Create a lifelike image of 21-year-old person with a really terrible broccoli haircut. Truly disastrous, please. The hair should be green.*
+:::
+:::
+::::
 
 ::: notes
 Talk briefly in your group. If they ask you what you think, do you tell them the truth?
 
+Ask the class. Discuss the fact that we each might have slightly different standards for what we think is moral behaviour (or perhaps even our willingess to be immoral!). This is the case across societies too, where we might use laws to define standard, but we might think certain laws or practices are too harsh or not harsh enough.
 :::
 
-# Group discussion 1
+# Why be ethical?
 
-1. What experiences have you had with ethical decisions as a student and/or early career researcher? Try to give examples.
+::: {.incremental}
+- You want to do the 'right' thing
+- You / your organisation want to avoid negative professional consequences and reputational risks (have positive ones)
+- You / your organisation wants to avoid legal risks and comply with regulation
+:::
 
-2. Read over the [Royal Society Te Apārangi](https://www.royalsociety.org.nz/assets/Uploads/Code-Overview-A3-web.pdf) Code of Professional Standards and Ethics in Science, Technology, and the Humanities. 
+::: notes
 
-2. Describe a possible workflow for biological research. Come up with a possible ethical decision 
+Adapted from UOT WTR course notes:
+Scientific innovations and techniques like the statistical and computational models in the previous example are a reminder that the work of science professionals impacts on other people. And all fields of science have applications that affect people and society. Consequently, it is important that professionals working in the sciences know how to reason about the impacts their work may have on others. This is where ethics comes in. Very generally, ethical questions are typically about what we “ought” to do in particular situations. We might be presented with a decision where we are forced to consider whether our action would be the “right”, or “fair”, or “just” thing to do. These ideas of “moral rights”, “fairness”, “justice” are moral concepts by which ethical decisions about what we should or ought to do are justified.
+:::
 
-Bonus activity
+# Some questions for ethical decision-making
 
-If you have time, do one of the following:
-- Rewrite one of the values & principles of responsibility & standards using the most intense slang you can.
+The following are adapted from the Waipapa Taumata Rau Science Course WTR100 (Science
 
-OR 
+1. “Does this action reflect the character traits that I strive to embody?” (virtue ethics)
 
-- Make a bad motivational poster for one of the principles from the  [Royal Society Te Apārangi Code](https://www.royalsociety.org.nz/assets/Uploads/Code-Overview-A3-web.pdf)
-  - There is a generator you can use [here](https://bighugelabs.com/motivator.php) (and you can get free photos from [Unsplash](https://unsplash.com/))
+2. “Will the overall consequences of my action result in the greatest good for the greatest number of people?” (consequentialism)
 
-![](img/nonmaleficence.jpg)
+3. “Will my action positively affect the strength of interconnectedness and respect the mutual responsibilities inherent in the relationships that I have with others?” (relational ethics)
+
+4. “Does this action satisfy my moral responsibilities?” (deontology)
+
+# Codes of conduct
+
+Last week you developed a Code of Conduct for this course. You may have also seen the [Waipapa Taumata Rau University of Auckland Code of Conduct](https://www.auckland.ac.nz/en/on-campus/life-on-campus/code-of-conduct.html) that applies to you as a student here.
+
+> The purpose of this Code is to develop and maintain a standard of behaviour that supports and enables the University’s commitment to being a safe, inclusive, equitable and respectful community; both in-person and online.
+
+<br>
+
+For people working in research and academia there are usually professional societies that have developed codes of conduct and ethical standards. The [**Royal Society Te Apārangi**](https://www.royalsociety.org.nz/) is a long established and well respected not-for-profit organisation in Aotearoa New Zealand and their Code of Conduct.
+
+<br>
+
+[Link to poster summary](https://www.royalsociety.org.nz/assets/Uploads/Code-Overview-A3-web.pdf)
+
+::: notes
+Similarly 
+:::
 
 
-# References
+# Group discussion 1 — see the runsheet
+
+# ☕️ 10 minute break
+
+# Exploring a few 'big ideas' for ethical data practices
+
+# Group discussion 2 — see the runsheet
 
 
 

@@ -47,16 +47,47 @@ group_allocation <- function(names, seed, groups = 9 ){
 
 ::: {.callout-note}
 ## Accessing activities
-Scan the QR code below, depending on the activity the site will update with what I want to share (e.g., this runsheet etc.)
+Scan the QR code below, I have provided links to both this runsheet and the slides.
 
-<center><p><a href="https://dub.sh/biosci738" target="_blank">dub.sh/biosci738</a></p>
-<img src="runsheets/img/qr_biosci738.svg" alt="dub.sh.biosci738"></center>
+<center><p><a href="link.lizabolton.com" target="_blank">link.lizabolton.com</a></p>
+<img src="img/slide-qr.png" alt="qr code"></center>
 :::
 
 
 # March 17th
 
+::: {.callout-tip}
+## By the end of today's seminar, you will be able to:
+- Recognise that while individuals (and societies) may have different opinions and approaches to ethics, but we can use codes of conduct to support our professional ethical decision making.
+- Describe some of the values, principles, responsibilities, and standards from the Royal Society Te Apārangi Code of Professional Standards and Ethics in Science, Technology, and the Humanities.
+- Describe how ethical decisions can appear throughout different stages of study and research in biology.
+- Identify issues and provide advice for ethical decision making in biology contexts.
+:::
+
+## Slides
+```{r}
+xaringanExtra::embed_xaringan(
+  "https://lizabolton.github.io/2025-biosci738-ethics/#/title-slide",
+  ratio = "16:9",
+  border = "2px solid currentColor",
+  max_width = NULL,
+  margin = "1em auto",
+  style = NULL
+)
+```
+
 ## Rough timeline
+
++ **09:05–09:25 AM** Introduction (see slides)
++ **09:25–09:55 AM** Your ethical experiences and codes of conduct @sec-coc2
+    - Group discussion
+    - Class discussion
+ + **09:55–10:05 am** Break
+ + **10.05–10.20 am** Ethical data practices and introduction to the case studies (see slides)
+ + **10.15–10.45 am** Case studies
+    - Groups work through the case studies
+    - Class discussion
++ **10.45–10.55 am** Wrap-up (and Code of Conduct meme-off if anyone has enough time to make them)
 
 ### Randomly allocated groups
 
@@ -66,3 +97,35 @@ Scan the QR code below, depending on the activity the site will update with what
 names <- c("Emma Akeroyd", "Jianing Chen", "Sunny Chen", "Anqi Cheng", "Barnaby Clegg-Shaw", "Shoule Du", "Yi Han", "Shuxiang He", "Alex Johnson", "Karie Labidon", "He Li", "Zichang Li", "Happy Liang", "Jiaxin Liu", "Leyang Liu", "Angel Loh", "Yue Ma", "Congkai Meng", "Robert Mihok", "Laura Munck", "Lana Najar", "Bayu Pitandoyo", "Pikitangarangi Ratapu", "YOGAPRIYA S", "Antonia Schebek-Fuerstenberg", "Keyi Sun", "Charlotte Sutton", "Julia Thain", "Yingyi Wang", "Yutong Wang", "Ziyi Wang", "Yutao Yang", "Tongzheng Yao", "Xinyue Zhang", "Zhixiao Zhang")
 group_allocation(names, seed = 1992)
 ```
+
+# Group discussion: Codes of conduct {#sec-coc2}
+
+1. What experiences have you had with ethical decisions as a student and/or early career researcher and/or employee? 
+
+2. Read over the [Royal Society Te Apārangi](https://www.royalsociety.org.nz/assets/Uploads/Code-Overview-A3-web.pdf) Code of Professional Standards and Ethics in Science, Technology, and the Humanities. 
+
+3. Describe a possible workflow for biological research. Come up with possible ethical decisions for each stage.
+
+### Bonus activity
+
+If you have time (now or in the second half), do one of the following:
+
+- Rewrite one of the values & principles of responsibility & standards using the most intense slang you can (Gen-Z, 80s valley girl, up to you, just keep it 'family friendly').
+
+OR 
+
+- Make a cheesy motivational poster / 'hopecore' edit for one of the principles from the  [Royal Society Te Apārangi Code](https://www.royalsociety.org.nz/assets/Uploads/Code-Overview-A3-web.pdf)
+  - There is a generator you can use [here](https://bighugelabs.com/motivator.php) (and you can get free photos from [Unsplash](https://unsplash.com/))
+
+![](img/nonmaleficence.jpg)
+
+# Case studies
+
+For each of the following case studies, discuss the sitation and identify potential ethical issues. For some, you may need to run the associated code in R.
+
+## Case 1
+
+## Case 2
+
+## Case 3
+
